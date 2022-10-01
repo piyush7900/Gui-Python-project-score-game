@@ -3,6 +3,7 @@ from time import sleep
 from keras.preprocessing.image import img_to_array
 from keras.preprocessing import image
 import cv2
+from keras.preprocessing.image import img_to_array
 import numpy as np
 
 face_classifier = cv2.CascadeClassifier(r'E:\Programming\Emotion detection\haarcascade_frontalface_default.xml')
